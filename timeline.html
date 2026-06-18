@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ship Timeline · SC Ship Timeline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="timeline.css">
+</head>
+<body>
+  <header class="site-header tl-header">
+    <div class="header-brand">
+      <div class="brand-hex">⬡</div>
+      <div>
+        <h1 class="brand-title">Ship Timeline</h1>
+        <p class="brand-sub">Star Citizen · Flyable ships by patch, oldest to latest</p>
+      </div>
+      <span class="early-access-pill">Early Access</span>
+    </div>
+    <a href="index.html" class="tl-back-btn">← Ship List</a>
+  </header>
+
+  <div class="tl-scroll-outer">
+    <div class="tl-track" id="tl-track">
+      <div class="tl-loading loading-state">
+        <div class="loading-spinner"></div>
+        <p>Loading timeline…</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tl-info-bar" id="tl-info-bar">
+    <button class="tl-info-close" id="tl-info-close" aria-label="Close">✕</button>
+    <div class="tl-info-content" id="tl-info-content"></div>
+  </div>
+
+  <script src="timeline.js"></script>
+</body>
+</html>
