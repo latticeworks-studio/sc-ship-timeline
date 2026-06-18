@@ -558,10 +558,10 @@
     "manufacturer_short": "Aegis",
     "announced": "2012-10-10",
     "announced_uncertain": false,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.1.1",
+    "flyable_date": "2025-05-15",
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "flyable"
   },
   {
     "id": "javelin",
@@ -784,12 +784,12 @@
     "name": "Hull A",
     "manufacturer": "MISC",
     "manufacturer_short": "MISC",
-    "announced": "2015-03-01",
+    "announced": "2015-04-24",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 3.17",
+    "flyable_date": "2022-04-29",
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "flyable"
   },
   {
     "id": "hull-b",
@@ -1590,10 +1590,10 @@
     "manufacturer_short": "Aegis",
     "announced": "2012-10-10",
     "announced_uncertain": false,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.1.1",
+    "flyable_date": "2025-05-15",
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "flyable"
   },
   {
     "id": "hornet-f7a-mk1",
@@ -1804,12 +1804,12 @@
     "name": "Clipper",
     "manufacturer": "Drake Interplanetary",
     "manufacturer_short": "Drake",
-    "announced": "2022-06-01",
-    "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "announced": "2025-03-06",
+    "announced_uncertain": false,
+    "flyable_patch": "Alpha 4.4.0",
+    "flyable_date": "2025-11-20",
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "flyable"
   },
   {
     "id": "pitbull",
@@ -1972,12 +1972,12 @@
     "name": "Fortune",
     "manufacturer": "MISC",
     "manufacturer_short": "MISC",
-    "announced": "2024-01-01",
-    "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "announced": "2025-01-28",
+    "announced_uncertain": false,
+    "flyable_patch": "Alpha 4.0.1",
+    "flyable_date": "2025-01-28",
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "flyable"
   },
   {
     "id": "origin-400i",
@@ -1996,12 +1996,12 @@
     "name": "M80",
     "manufacturer": "Origin Jumpworks",
     "manufacturer_short": "Origin",
-    "announced": "2014-01-01",
+    "announced": "2026-05-16",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.8",
+    "flyable_date": "2026-05-16",
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "flyable"
   },
   {
     "id": "mantis",
@@ -2116,12 +2116,12 @@
     "name": "Meteor",
     "manufacturer": "Roberts Space Industries",
     "manufacturer_short": "RSI",
-    "announced": "2025-01-01",
+    "announced": "2025-07-17",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.2.1",
+    "flyable_date": "2025-07-17",
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "flyable"
   },
   {
     "id": "salvation",
@@ -2140,12 +2140,12 @@
     "name": "Hermes",
     "manufacturer": "Roberts Space Industries",
     "manufacturer_short": "RSI",
-    "announced": "2025-01-01",
-    "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "announced": "2065-01-22",
+    "announced_uncertain": false,
+    "flyable_patch": "Alpha 4.6",
+    "flyable_date": "2065-01-22",
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "flyable"
   },
   {
     "id": "pegasus",
