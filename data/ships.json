@@ -946,7 +946,7 @@
     "flyable_date": null,
     "flyable_uncertain": false,
     "status": "unreleased",
-    "role": "salvage"
+    "role": "support"
   },
   {
     "id": "origin-300i",
@@ -2129,7 +2129,7 @@
     "flyable_date": "2025-01-28",
     "flyable_uncertain": false,
     "status": "flyable",
-    "role": "freight"
+    "role": "salvage"
   },
   {
     "id": "origin-400i",
@@ -2298,7 +2298,7 @@
     "flyable_date": "2025-11-20",
     "flyable_uncertain": false,
     "status": "flyable",
-    "role": "fighter"
+    "role": "salvage"
   },
   {
     "id": "hermes",
@@ -2454,7 +2454,7 @@
     "flyable_date": "2026-02-11",
     "flyable_uncertain": false,
     "status": "flyable",
-    "role": "support"
+    "role": "salvage"
   },
   {
     "id": "mpuv-tractor",
