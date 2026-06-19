@@ -582,7 +582,7 @@
     "flyable_date": null,
     "flyable_uncertain": true,
     "status": "unreleased",
-    "role": "capital"
+    "role": "fighter"
   },
   {
     "id": "idris-p",
@@ -2610,7 +2610,7 @@
     "flyable_date": "2020-04-01",
     "flyable_uncertain": false,
     "status": "flyable",
-    "role": "capital"
+    "role": "fighter"
   },
   {
     "id": "ballista",
