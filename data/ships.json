@@ -9,7 +9,8 @@
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "aurora-ln",
@@ -21,7 +22,8 @@
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "aurora-lx",
@@ -33,7 +35,8 @@
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "aurora-es",
@@ -45,7 +48,8 @@
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "aurora-cl",
@@ -57,7 +61,8 @@
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "constellation-andromeda",
@@ -69,7 +74,8 @@
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "constellation-aquila",
@@ -81,7 +87,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "constellation-taurus",
@@ -93,7 +100,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "constellation-phoenix",
@@ -105,7 +113,8 @@
     "flyable_patch": "Alpha 3.6",
     "flyable_date": "2019-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "perseus",
@@ -117,7 +126,8 @@
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "capital"
   },
   {
     "id": "scorpius",
@@ -129,7 +139,8 @@
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "scorpius-antares",
@@ -141,7 +152,8 @@
     "flyable_patch": "Alpha 3.20",
     "flyable_date": "2023-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "polaris",
@@ -153,7 +165,8 @@
     "flyable_patch": "Alpha 4.0",
     "flyable_date": "2024-12-19",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "capital"
   },
   {
     "id": "galaxy",
@@ -165,7 +178,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "support"
   },
   {
     "id": "hornet-f7c",
@@ -177,7 +191,8 @@
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "hornet-f7c-m",
@@ -189,7 +204,8 @@
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "hornet-f7c-s",
@@ -201,7 +217,8 @@
     "flyable_patch": "Arena Commander v1.1",
     "flyable_date": "2015-07-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "hornet-f7c-r",
@@ -213,7 +230,8 @@
     "flyable_patch": "Arena Commander v1.1",
     "flyable_date": "2015-07-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "gladiator",
@@ -225,7 +243,8 @@
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "terrapin",
@@ -237,7 +256,8 @@
     "flyable_patch": "Alpha 3.3",
     "flyable_date": "2018-10-10",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "hurricane",
@@ -249,7 +269,8 @@
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "arrow",
@@ -261,7 +282,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "hawk",
@@ -273,7 +295,8 @@
     "flyable_patch": "Alpha 3.4",
     "flyable_date": "2018-12-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "valkyrie",
@@ -285,7 +308,8 @@
     "flyable_patch": "Alpha 3.3",
     "flyable_date": "2018-10-10",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "dropship"
   },
   {
     "id": "carrack",
@@ -297,7 +321,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "carrack-expedition",
@@ -309,7 +334,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "c8-pisces",
@@ -321,7 +347,8 @@
     "flyable_patch": "Alpha 3.7",
     "flyable_date": "2019-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "ironclad",
@@ -333,7 +360,8 @@
     "flyable_patch": "Alpha 4.8",
     "flyable_date": "2026-05-14",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "ironclad-assault",
@@ -345,7 +373,8 @@
     "flyable_patch": "Alpha 4.8",
     "flyable_date": "2026-05-14",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "dropship"
   },
   {
     "id": "avenger-titan",
@@ -357,7 +386,8 @@
     "flyable_patch": "Arena Commander v0.9",
     "flyable_date": "2014-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "avenger-stalker",
@@ -369,7 +399,8 @@
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "avenger-warlock",
@@ -381,7 +412,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "gladius",
@@ -393,7 +425,8 @@
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "sabre",
@@ -405,7 +438,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "sabre-raven",
@@ -417,7 +451,8 @@
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "vanguard-warden",
@@ -429,7 +464,8 @@
     "flyable_patch": "Alpha 2.2",
     "flyable_date": "2016-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "vanguard-harbinger",
@@ -441,7 +477,8 @@
     "flyable_patch": "Alpha 2.5",
     "flyable_date": "2016-11-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "vanguard-sentinel",
@@ -453,7 +490,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "retaliator-base",
@@ -465,7 +503,8 @@
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "retaliator-bomber",
@@ -477,7 +516,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "hammerhead",
@@ -489,7 +529,8 @@
     "flyable_patch": "Alpha 3.3",
     "flyable_date": "2018-10-10",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "capital"
   },
   {
     "id": "reclaimer",
@@ -501,7 +542,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "salvage"
   },
   {
     "id": "eclipse",
@@ -513,7 +555,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "redeemer",
@@ -525,7 +568,8 @@
     "flyable_patch": "Alpha 3.13",
     "flyable_date": "2021-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "nautilus",
@@ -537,7 +581,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": true,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "capital"
   },
   {
     "id": "idris-p",
@@ -549,7 +594,8 @@
     "flyable_patch": "Alpha 4.1.1",
     "flyable_date": "2025-05-15",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "capital"
   },
   {
     "id": "javelin",
@@ -561,7 +607,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "capital"
   },
   {
     "id": "cutlass-black",
@@ -573,7 +620,8 @@
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "cutlass-blue",
@@ -585,7 +633,8 @@
     "flyable_patch": "Alpha 3.4",
     "flyable_date": "2018-12-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "cutlass-red",
@@ -597,7 +646,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "cutlass-steel",
@@ -609,7 +659,8 @@
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "dropship"
   },
   {
     "id": "caterpillar",
@@ -621,7 +672,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "herald",
@@ -633,7 +685,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "dragonfly-black",
@@ -645,7 +698,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "dragonfly-yellow",
@@ -657,7 +711,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "buccaneer",
@@ -669,7 +724,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "vulture",
@@ -681,7 +737,8 @@
     "flyable_patch": "Alpha 3.14",
     "flyable_date": "2021-08-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "salvage"
   },
   {
     "id": "corsair",
@@ -693,7 +750,8 @@
     "flyable_patch": "Alpha 3.16",
     "flyable_date": "2021-12-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "cutter",
@@ -705,7 +763,8 @@
     "flyable_patch": "Alpha 3.18",
     "flyable_date": "2023-03-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "freelancer",
@@ -717,7 +776,8 @@
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "freelancer-max",
@@ -729,7 +789,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "freelancer-mis",
@@ -741,7 +802,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "freelancer-dur",
@@ -753,7 +815,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "prospector",
@@ -765,7 +828,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "mining"
   },
   {
     "id": "hull-a",
@@ -777,7 +841,8 @@
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-29",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "hull-b",
@@ -789,7 +854,8 @@
     "flyable_patch": "Alpha 4.7.1",
     "flyable_date": "2026-04-08",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "hull-c",
@@ -801,7 +867,8 @@
     "flyable_patch": "Alpha 3.18",
     "flyable_date": "2023-03-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "hull-d",
@@ -813,7 +880,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "freight"
   },
   {
     "id": "hull-e",
@@ -825,7 +893,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "freight"
   },
   {
     "id": "razor",
@@ -837,7 +906,8 @@
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "starfarer",
@@ -849,7 +919,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "starfarer-gemini",
@@ -861,7 +932,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "expanse",
@@ -873,7 +945,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "salvage"
   },
   {
     "id": "origin-300i",
@@ -885,7 +958,8 @@
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "origin-315p",
@@ -897,7 +971,8 @@
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "origin-325a",
@@ -909,7 +984,8 @@
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "origin-350r",
@@ -921,7 +997,8 @@
     "flyable_patch": "Arena Commander v1.1",
     "flyable_date": "2015-07-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "origin-m50",
@@ -933,7 +1010,8 @@
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "origin-85x",
@@ -945,7 +1023,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "origin-100i",
@@ -957,7 +1036,8 @@
     "flyable_patch": "Alpha 3.11",
     "flyable_date": "2020-11-19",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "origin-125a",
@@ -969,7 +1049,8 @@
     "flyable_patch": "Alpha 3.11",
     "flyable_date": "2020-11-19",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "origin-135c",
@@ -981,7 +1062,8 @@
     "flyable_patch": "Alpha 3.11",
     "flyable_date": "2020-11-19",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "600i-explorer",
@@ -993,7 +1075,8 @@
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "600i-touring",
@@ -1005,7 +1088,8 @@
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "890-jump",
@@ -1017,7 +1101,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "x1-force",
@@ -1029,7 +1114,8 @@
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "mercury-star-runner",
@@ -1041,7 +1127,8 @@
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "ares-ion",
@@ -1053,7 +1140,8 @@
     "flyable_patch": "Alpha 3.13",
     "flyable_date": "2021-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "ares-inferno",
@@ -1065,7 +1153,8 @@
     "flyable_patch": "Alpha 3.13",
     "flyable_date": "2021-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "c2-hercules",
@@ -1077,7 +1166,8 @@
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "m2-hercules",
@@ -1089,7 +1179,8 @@
     "flyable_patch": "Alpha 3.13",
     "flyable_date": "2021-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "a2-hercules",
@@ -1101,7 +1192,8 @@
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "dropship"
   },
   {
     "id": "spirit-c1",
@@ -1113,7 +1205,8 @@
     "flyable_patch": "Alpha 3.20",
     "flyable_date": "2023-09-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "spirit-e1",
@@ -1125,7 +1218,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "exploration"
   },
   {
     "id": "spirit-a1",
@@ -1137,7 +1231,8 @@
     "flyable_patch": "Alpha 3.20",
     "flyable_date": "2023-09-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "talon",
@@ -1149,7 +1244,8 @@
     "flyable_patch": "Alpha 3.12",
     "flyable_date": "2020-12-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "talon-shrike",
@@ -1161,7 +1257,8 @@
     "flyable_patch": "Alpha 3.12",
     "flyable_date": "2020-12-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "blade",
@@ -1173,7 +1270,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "glaive",
@@ -1185,7 +1283,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "defender",
@@ -1197,7 +1296,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "merchantman",
@@ -1209,7 +1309,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "freight"
   },
   {
     "id": "railen",
@@ -1221,7 +1322,8 @@
     "flyable_patch": "Alpha 4.8.2",
     "flyable_date": "2026-06-17",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "syulen",
@@ -1233,7 +1335,8 @@
     "flyable_patch": "Alpha 3.21",
     "flyable_date": "2023-11-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "guardian",
@@ -1245,7 +1348,8 @@
     "flyable_patch": "Alpha 3.19",
     "flyable_date": "2023-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "guardian-qi",
@@ -1257,7 +1361,8 @@
     "flyable_patch": "Alpha 3.19",
     "flyable_date": "2023-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "guardian-lx",
@@ -1269,7 +1374,8 @@
     "flyable_patch": "Alpha 3.19",
     "flyable_date": "2023-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "fury",
@@ -1281,7 +1387,8 @@
     "flyable_patch": "Alpha 3.20",
     "flyable_date": "2023-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "san-tok-yai",
@@ -1293,7 +1400,8 @@
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "mustang-alpha",
@@ -1305,7 +1413,8 @@
     "flyable_patch": "Arena Commander v1.1",
     "flyable_date": "2015-07-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "mustang-beta",
@@ -1317,7 +1426,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "mustang-delta",
@@ -1329,7 +1439,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "mustang-gamma",
@@ -1341,7 +1452,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "mustang-omega",
@@ -1353,7 +1465,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "nomad",
@@ -1365,7 +1478,8 @@
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "mole",
@@ -1377,7 +1491,8 @@
     "flyable_patch": "Alpha 3.12",
     "flyable_date": "2020-12-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "mining"
   },
   {
     "id": "raft",
@@ -1389,7 +1504,8 @@
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "mpuv-cargo",
@@ -1401,7 +1517,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "mpuv-personnel",
@@ -1413,7 +1530,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "cyclone",
@@ -1425,7 +1543,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "cyclone-tr",
@@ -1437,7 +1556,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "nova",
@@ -1449,7 +1569,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "roc",
@@ -1461,7 +1582,8 @@
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "mining"
   },
   {
     "id": "stv",
@@ -1473,7 +1595,8 @@
     "flyable_patch": "Alpha 3.14",
     "flyable_date": "2021-08-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "utc",
@@ -1485,7 +1608,8 @@
     "flyable_patch": "Alpha 4.7.1",
     "flyable_date": "2026-04-08",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "vanguard-hoplite",
@@ -1497,7 +1621,8 @@
     "flyable_patch": "Alpha 3.1",
     "flyable_date": "2018-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "dropship"
   },
   {
     "id": "sabre-comet",
@@ -1509,7 +1634,8 @@
     "flyable_patch": "Alpha 3.4",
     "flyable_date": "2018-12-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "sabre-firebird",
@@ -1521,7 +1647,8 @@
     "flyable_patch": "Alpha 3.18",
     "flyable_date": "2023-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "sabre-peregrine",
@@ -1533,7 +1660,8 @@
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "gladius-valiant",
@@ -1545,7 +1673,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "vulcan",
@@ -1557,7 +1686,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "support"
   },
   {
     "id": "tiburon",
@@ -1569,7 +1699,8 @@
     "flyable_patch": "Alpha 4.8",
     "flyable_date": "2026-05-20",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "idris-m",
@@ -1581,7 +1712,8 @@
     "flyable_patch": "Alpha 4.1.1",
     "flyable_date": "2025-05-15",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "capital"
   },
   {
     "id": "hornet-f7a-mk1",
@@ -1593,7 +1725,8 @@
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "hornet-f7a-mk2",
@@ -1605,7 +1738,8 @@
     "flyable_patch": "Alpha 3.23",
     "flyable_date": "2024-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "hornet-f7c-mk2",
@@ -1617,7 +1751,8 @@
     "flyable_patch": "Alpha 3.23",
     "flyable_date": "2024-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "hornet-f7c-m-mk2",
@@ -1629,7 +1764,8 @@
     "flyable_patch": "Alpha 3.23",
     "flyable_date": "2024-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "f8c-lightning",
@@ -1641,7 +1777,8 @@
     "flyable_patch": "Alpha 3.9",
     "flyable_date": "2020-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "liberator",
@@ -1653,7 +1790,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "dropship"
   },
   {
     "id": "crucible",
@@ -1665,7 +1803,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "support"
   },
   {
     "id": "paladin",
@@ -1677,7 +1816,8 @@
     "flyable_patch": "Alpha 4.3.2",
     "flyable_date": "2025-10-11",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "odin",
@@ -1689,7 +1829,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "fighter"
   },
   {
     "id": "c8r-pisces-rescue",
@@ -1701,7 +1842,8 @@
     "flyable_patch": "Alpha 3.11",
     "flyable_date": "2020-11-19",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "c8x-pisces-expedition",
@@ -1713,7 +1855,8 @@
     "flyable_patch": "Alpha 3.11",
     "flyable_date": "2020-11-19",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "terrapin-medic",
@@ -1725,7 +1868,8 @@
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "legionnaire",
@@ -1737,7 +1881,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "dropship"
   },
   {
     "id": "cutter-scout",
@@ -1749,7 +1894,8 @@
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "cutter-rambler",
@@ -1761,7 +1907,8 @@
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "kraken",
@@ -1773,7 +1920,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "capital"
   },
   {
     "id": "kraken-privateer",
@@ -1785,7 +1933,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "freight"
   },
   {
     "id": "clipper",
@@ -1797,7 +1946,8 @@
     "flyable_patch": "Alpha 4.4.0",
     "flyable_date": "2025-11-20",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "pitbull",
@@ -1809,7 +1959,8 @@
     "flyable_patch": "Alpha 4.8",
     "flyable_date": "2026-05-14",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "reliant-kore",
@@ -1821,7 +1972,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "reliant-mako",
@@ -1833,7 +1985,8 @@
     "flyable_patch": "Alpha 3.1",
     "flyable_date": "2018-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "reliant-sen",
@@ -1845,7 +1998,8 @@
     "flyable_patch": "Alpha 3.1",
     "flyable_date": "2018-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "reliant-tana",
@@ -1857,7 +2011,8 @@
     "flyable_patch": "Alpha 3.1",
     "flyable_date": "2018-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "razor-ex",
@@ -1869,7 +2024,8 @@
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "razor-lx",
@@ -1881,7 +2037,8 @@
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "endeavor",
@@ -1893,7 +2050,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "exploration"
   },
   {
     "id": "odyssey",
@@ -1905,7 +2063,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "exploration"
   },
   {
     "id": "starlancer-bld",
@@ -1917,7 +2076,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "fighter"
   },
   {
     "id": "starlancer-max",
@@ -1929,7 +2089,8 @@
     "flyable_patch": "Alpha 3.24.3",
     "flyable_date": "2024-11-22",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "starlancer-tac",
@@ -1941,7 +2102,8 @@
     "flyable_patch": "Alpha 4.1.1",
     "flyable_date": "2025-05-15",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "starlite",
@@ -1953,7 +2115,8 @@
     "flyable_patch": "Alpha 4.8",
     "flyable_date": "2026-05-18",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "fortune",
@@ -1965,7 +2128,8 @@
     "flyable_patch": "Alpha 4.0.1",
     "flyable_date": "2025-01-28",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "origin-400i",
@@ -1977,7 +2141,8 @@
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "origin-m80",
@@ -1989,7 +2154,8 @@
     "flyable_patch": "Alpha 4.8",
     "flyable_date": "2026-05-16",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "mantis",
@@ -2001,7 +2167,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "apollo-triage",
@@ -2013,7 +2180,8 @@
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "apollo-medivac",
@@ -2025,7 +2193,8 @@
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "zeus-mk2-cl",
@@ -2037,7 +2206,8 @@
     "flyable_patch": "Alpha 4.0",
     "flyable_date": "2024-12-19",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "zeus-mk2-es",
@@ -2049,7 +2219,8 @@
     "flyable_patch": "Alpha 4.0",
     "flyable_date": "2024-12-19",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "zeus-mk2-mr",
@@ -2061,7 +2232,8 @@
     "flyable_patch": "Alpha 4.0",
     "flyable_date": "2024-12-19",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "orion",
@@ -2073,7 +2245,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "mining"
   },
   {
     "id": "bengal",
@@ -2085,7 +2258,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "capital"
   },
   {
     "id": "arrastra",
@@ -2097,7 +2271,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "mining"
   },
   {
     "id": "meteor",
@@ -2109,7 +2284,8 @@
     "flyable_patch": "Alpha 4.2.1",
     "flyable_date": "2025-07-17",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "salvation",
@@ -2121,7 +2297,8 @@
     "flyable_patch": "Alpha 4.4.0",
     "flyable_date": "2025-11-20",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "hermes",
@@ -2133,7 +2310,8 @@
     "flyable_patch": "Alpha 4.6",
     "flyable_date": "2065-01-22",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "pegasus",
@@ -2145,7 +2323,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "capital"
   },
   {
     "id": "intrepid",
@@ -2157,7 +2336,8 @@
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "exploration"
   },
   {
     "id": "genesis-starliner",
@@ -2169,7 +2349,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "support"
   },
   {
     "id": "prowler",
@@ -2181,7 +2362,8 @@
     "flyable_patch": "Alpha 3.7",
     "flyable_date": "2019-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "dropship"
   },
   {
     "id": "scythe",
@@ -2193,7 +2375,8 @@
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "khartu-al",
@@ -2205,7 +2388,8 @@
     "flyable_patch": "Alpha 3.1",
     "flyable_date": "2018-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "nox",
@@ -2217,7 +2401,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "nox-kue",
@@ -2229,7 +2414,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "tyilui",
@@ -2241,7 +2427,8 @@
     "flyable_patch": "Alpha 4.8.2",
     "flyable_date": "2026-06-17",
     "flyable_uncertain": false,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "srv",
@@ -2253,7 +2440,8 @@
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "moth",
@@ -2265,7 +2453,8 @@
     "flyable_patch": "Alpha 4.6.0",
     "flyable_date": "2026-02-11",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "mpuv-tractor",
@@ -2277,7 +2466,8 @@
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "storm",
@@ -2289,7 +2479,8 @@
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "cyclone-rc",
@@ -2301,7 +2492,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "cyclone-aa",
@@ -2313,7 +2505,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "p52-merlin",
@@ -2325,7 +2518,8 @@
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "p72-archimedes",
@@ -2337,7 +2531,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "pioneer",
@@ -2349,7 +2544,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "support"
   },
   {
     "id": "hoverquad",
@@ -2361,7 +2557,8 @@
     "flyable_patch": "Alpha 3.18",
     "flyable_date": "2023-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "fury-lx",
@@ -2373,7 +2570,8 @@
     "flyable_patch": "Alpha 3.20",
     "flyable_date": "2023-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "fury-mx",
@@ -2385,7 +2583,8 @@
     "flyable_patch": "Alpha 3.20",
     "flyable_date": "2023-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "avenger-titan-renegade",
@@ -2397,7 +2596,8 @@
     "flyable_patch": "Arena Commander v0.9",
     "flyable_date": "2014-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "nautilus-solstice",
@@ -2409,7 +2609,8 @@
     "flyable_patch": "Alpha 3.9",
     "flyable_date": "2020-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "capital"
   },
   {
     "id": "ballista",
@@ -2421,7 +2622,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "ballista-dunestalker",
@@ -2433,7 +2635,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "ballista-snowblind",
@@ -2445,7 +2648,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "centurion",
@@ -2457,7 +2661,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "spartan",
@@ -2469,7 +2674,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "hornet-wildfire-mk1",
@@ -2481,7 +2687,8 @@
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "hornet-heartseeker-mk1",
@@ -2493,7 +2700,8 @@
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "f8c-lightning-executive",
@@ -2505,7 +2713,8 @@
     "flyable_patch": "Alpha 3.9",
     "flyable_date": "2020-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "valkyrie-liberator",
@@ -2517,7 +2726,8 @@
     "flyable_patch": "Alpha 3.3",
     "flyable_date": "2018-10-10",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "dropship"
   },
   {
     "id": "mole-carbon",
@@ -2529,7 +2739,8 @@
     "flyable_patch": "Alpha 3.12",
     "flyable_date": "2020-12-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "mining"
   },
   {
     "id": "mole-talus",
@@ -2541,7 +2752,8 @@
     "flyable_patch": "Alpha 3.12",
     "flyable_date": "2020-12-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "mining"
   },
   {
     "id": "atls",
@@ -2553,7 +2765,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "atls-geo",
@@ -2565,7 +2778,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "csv-sm",
@@ -2577,7 +2791,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "mustang-alpha-vindicator",
@@ -2589,7 +2804,8 @@
     "flyable_patch": "Arena Commander v1.1",
     "flyable_date": "2015-07-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "fighter"
   },
   {
     "id": "golem",
@@ -2601,7 +2817,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "golem-ox",
@@ -2613,7 +2830,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "mule",
@@ -2625,7 +2843,8 @@
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "prowler-utility",
@@ -2637,7 +2856,8 @@
     "flyable_patch": "Alpha 3.7",
     "flyable_date": "2019-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "stinger",
@@ -2649,7 +2869,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "fighter"
   },
   {
     "id": "shiv",
@@ -2661,7 +2882,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "mdc",
@@ -2673,7 +2895,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "mtc",
@@ -2685,7 +2908,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "ptv",
@@ -2697,7 +2921,8 @@
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "roc-ds",
@@ -2709,7 +2934,8 @@
     "flyable_patch": "Alpha 3.12",
     "flyable_date": "2020-12-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "mining"
   },
   {
     "id": "utv",
@@ -2721,7 +2947,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "ground"
   },
   {
     "id": "l21-wolf",
@@ -2733,7 +2960,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "fighter"
   },
   {
     "id": "l22-alpha-wolf",
@@ -2745,7 +2973,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "fighter"
   },
   {
     "id": "p72-archimedes-emerald",
@@ -2757,7 +2986,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "pulse",
@@ -2769,7 +2999,8 @@
     "flyable_patch": "Alpha 3.24",
     "flyable_date": "2024-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "pulse-lx",
@@ -2781,7 +3012,8 @@
     "flyable_patch": "Alpha 3.24",
     "flyable_date": "2024-09-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "g12",
@@ -2793,7 +3025,8 @@
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "g12a",
@@ -2805,7 +3038,8 @@
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "g12r",
@@ -2817,7 +3051,8 @@
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "x1",
@@ -2829,7 +3064,8 @@
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "x1-velocity",
@@ -2841,7 +3077,8 @@
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "racing"
   },
   {
     "id": "aurora-mk1-se",
@@ -2853,7 +3090,8 @@
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "freight"
   },
   {
     "id": "aurora-mk2",
@@ -2865,7 +3103,8 @@
     "flyable_patch": null,
     "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "unreleased"
+    "status": "unreleased",
+    "role": "fighter"
   },
   {
     "id": "constellation-phoenix-emerald",
@@ -2877,7 +3116,8 @@
     "flyable_patch": "Alpha 3.6",
     "flyable_date": "2019-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "support"
   },
   {
     "id": "lynx",
@@ -2889,7 +3129,8 @@
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "ursa",
@@ -2901,7 +3142,8 @@
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "ursa-fortuna",
@@ -2913,7 +3155,8 @@
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "ursa-medivac",
@@ -2925,7 +3168,8 @@
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "cyclone-mt",
@@ -2937,7 +3181,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "cyclone-rn",
@@ -2949,7 +3194,8 @@
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "ranger-cv",
@@ -2961,7 +3207,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "ranger-rc",
@@ -2973,7 +3220,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "ranger-tr",
@@ -2985,7 +3233,8 @@
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "storm-aa",
@@ -2997,7 +3246,8 @@
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "ground"
   },
   {
     "id": "asgard",
@@ -3009,6 +3259,7 @@
     "flyable_patch": "Alpha 4.1.1",
     "flyable_date": "2025-05-15",
     "flyable_uncertain": true,
-    "status": "flyable"
+    "status": "flyable",
+    "role": "dropship"
   }
 ]

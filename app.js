@@ -17,6 +17,8 @@ const MFR_CLASS = {
   'Argo Astronautics':        'Argo',
   'Consolidated Outland':     'CO',
   "Xi'An":                    'XiAn',
+  'Kruger Intergalactic':     'Kruger',
+  "Grey's Market":            'Greys',
 };
 
 let allShips = [];
@@ -25,10 +27,23 @@ let currentSort = 'name';
 let currentSearch = '';
 let currentPatch = '';
 let currentStatus = '';
+let currentRole   = '';
 let selectedId = null;
 
 // ─── Init ──────────────────────────────────────────────────────────────────
+async function loadMeta() {
+  try {
+    const meta = await (await fetch('data/meta.json')).json();
+    const el = document.getElementById('last-updated-date');
+    if (el && meta.last_updated) {
+      const d = new Date(meta.last_updated + 'T00:00:00');
+      el.textContent = d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    }
+  } catch {}
+}
+
 async function init() {
+  loadMeta();
   try {
     const res = await fetch('data/ships.json');
     allShips = await res.json();
@@ -38,6 +53,7 @@ async function init() {
     setupSort();
     setupPatchFilter();
     setupStatusFilter();
+    setupRoleFilter();
     initStatsModal();
   } catch (err) {
     document.getElementById('ship-list').innerHTML =
@@ -55,8 +71,9 @@ function applyFilters() {
       s.manufacturer.toLowerCase().includes(q) ||
       s.manufacturer_short.toLowerCase().includes(q)
     )) return false;
-    if (currentPatch && s.flyable_patch !== currentPatch) return false;
-    if (currentStatus && s.status !== currentStatus) return false;
+    if (currentPatch  && s.flyable_patch !== currentPatch)  return false;
+    if (currentStatus && s.status        !== currentStatus) return false;
+    if (currentRole   && s.role          !== currentRole)   return false;
     return true;
   });
 
@@ -444,6 +461,18 @@ function escHtml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
+}
+
+// ─── Role filter ───────────────────────────────────────────────────────────
+function setupRoleFilter() {
+  const select = document.getElementById('role-filter');
+  if (!select) return;
+  select.addEventListener('change', () => {
+    currentRole = select.value;
+    select.classList.toggle('active', !!currentRole);
+    selectedId = null;
+    applyFilters();
+  });
 }
 
 // ─── Status filter ─────────────────────────────────────────────────────────

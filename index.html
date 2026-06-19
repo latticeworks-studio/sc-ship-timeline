@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SC Ship Timeline</title>
+  <meta name="description" content="Every Star Citizen ship — announced and flyable dates, all patches, all manufacturers.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SC Ship Timeline">
+  <meta property="og:description" content="Every Star Citizen ship — announced and flyable dates, all patches, all manufacturers.">
+  <meta property="og:url" content="https://latticeworks-studio.github.io/sc-ship-timeline/">
+  <meta name="theme-color" content="#07080f">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -67,6 +74,24 @@
           <path d="M2.5 4.5l3.5 3.5 3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
+      <div class="role-wrap">
+        <select id="role-filter" class="role-select" aria-label="Filter by role">
+          <option value="">All roles</option>
+          <option value="fighter">Fighter</option>
+          <option value="exploration">Exploration</option>
+          <option value="freight">Freight</option>
+          <option value="mining">Mining</option>
+          <option value="salvage">Salvage</option>
+          <option value="support">Support</option>
+          <option value="dropship">Dropship</option>
+          <option value="racing">Racing</option>
+          <option value="capital">Capital</option>
+          <option value="ground">Ground</option>
+        </select>
+        <svg class="role-chevron" viewBox="0 0 12 12" fill="none">
+          <path d="M2.5 4.5l3.5 3.5 3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
       <div class="status-filter-wrap">
         <span class="sort-label">Filter</span>
         <button class="status-btn active" data-status="">All</button>
@@ -107,6 +132,7 @@
 
   <footer class="site-footer">
     <p>Data compiled from community sources · Dates marked <span class="legend-uncertain">~</span> are approximate · <a href="https://robertsspaceindustries.com" target="_blank" rel="noopener">RSI</a></p>
+    <p class="footer-meta">Updated <span id="last-updated-date">—</span> · Made by <a href="https://latticeworks.studio" target="_blank" rel="noopener">LatticeWorks</a></p>
   </footer>
 
   <!-- Stats modal -->

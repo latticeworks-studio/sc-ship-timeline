@@ -41,6 +41,8 @@
   --argo:         #607d8b;
   --co:           #ffa726;
   --xian:         #ce93d8;
+  --kruger:       #9c7cd8;
+  --greys:        #8a8a8a;
 
   --font-body:    'Exo 2', system-ui, sans-serif;
   --font-mono:    'Share Tech Mono', 'Courier New', monospace;
@@ -409,6 +411,46 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   pointer-events: none;
 }
 .patch-select.active ~ .patch-chevron { color: var(--accent); }
+
+/* ─── Role dropdown ──────────────────────────────────────────────────────── */
+.role-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.role-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-dim);
+  font-family: var(--font-body);
+  font-size: 12px;
+  padding: 5px 26px 5px 10px;
+  outline: none;
+  cursor: pointer;
+  min-width: 110px;
+  transition: all var(--transition);
+}
+.role-select:hover { border-color: var(--border-h); color: var(--text); }
+.role-select:focus { border-color: var(--border-acc); box-shadow: 0 0 0 3px var(--accent-glow); }
+.role-select.active {
+  background: var(--accent-glow);
+  border-color: var(--border-acc);
+  color: var(--accent);
+}
+.role-select option { background: #0c1221; color: var(--text); }
+.role-chevron {
+  position: absolute;
+  right: 8px;
+  width: 12px;
+  height: 12px;
+  color: var(--text-dimmer);
+  pointer-events: none;
+}
+.role-select.active ~ .role-chevron { color: var(--accent); }
 
 /* ─── Sort ───────────────────────────────────────────────────────────────── */
 .sort-wrap {
@@ -989,6 +1031,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .mfr-Argo     { color: var(--argo);     border-color: rgba(96, 125, 139, 0.3);  background: rgba(96, 125, 139, 0.08); }
 .mfr-CO       { color: var(--co);       border-color: rgba(255, 167, 38, 0.3);  background: rgba(255, 167, 38, 0.08); }
 .mfr-XiAn    { color: var(--xian);     border-color: rgba(206, 147, 216, 0.3); background: rgba(206, 147, 216, 0.08); }
+.mfr-Kruger  { color: var(--kruger);   border-color: rgba(156, 124, 216, 0.3); background: rgba(156, 124, 216, 0.08); }
+.mfr-Greys   { color: var(--greys);    border-color: rgba(138, 138, 138, 0.3); background: rgba(138, 138, 138, 0.08); }
 
 /* ─── Legend ─────────────────────────────────────────────────────────────── */
 .legend-uncertain {
@@ -1003,6 +1047,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-size: 11px;
   color: var(--text-dimmer);
   text-align: center;
+}
+.footer-meta {
+  margin-top: 3px;
+  opacity: 0.6;
 }
 
 /* ─── Responsive ─────────────────────────────────────────────────────────── */
@@ -1020,9 +1068,20 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .ship-expand-content { padding: 20px 16px 24px; }
   .detail-name { font-size: 22px; }
 
-  .site-header { gap: 10px; }
-  .header-controls { width: 100%; }
-  .search-wrap { max-width: 100%; }
+  .site-header { gap: 10px; padding: 10px 14px; }
+  .header-controls { width: 100%; gap: 8px; }
+  .search-wrap { flex: 1; min-width: 0; }
+
+  /* scale pixel title so it fits without wrapping */
+  .px-text { transform: scale(0.78); transform-origin: left center; }
+  .brand-sub { font-size: 10px; }
+
+  /* allow filter rows to wrap */
+  .status-filter-wrap,
+  .sort-wrap { flex-wrap: wrap; }
+
+  .role-select { min-width: 90px; }
+  .patch-select { min-width: 110px; }
 }
 
 @media (max-width: 540px) {
@@ -1031,4 +1090,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   }
   .ship-item-patch  { display: none; }
   .ship-item-status { display: none; }
+
+  /* hide role + patch dropdowns on very small screens; search + status stay */
+  .role-wrap  { display: none; }
+  .patch-wrap { display: none; }
 }
