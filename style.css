@@ -97,11 +97,33 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .brand-title {
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--text);
+  font-size: 0;
   white-space: nowrap;
+}
+
+/* ─── Pixel title ────────────────────────────────────────────────────────── */
+.px-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  user-select: none;
+}
+.px-row {
+  display: flex;
+  gap: 4px;
+}
+.px-char {
+  display: flex;
+  gap: 1px;
+}
+.px-cell {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+}
+.px-cell.on {
+  background: var(--accent);
+  box-shadow: 0 0 3px var(--accent);
 }
 
 .brand-sub {
