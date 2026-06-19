@@ -2818,7 +2818,7 @@
     "flyable_date": "2025-05-15",
     "flyable_uncertain": false,
     "status": "flyable",
-    "role": "ground"
+    "role": "mining"
   },
   {
     "id": "golem-ox",
@@ -2831,7 +2831,7 @@
     "flyable_date": "2025-11-19",
     "flyable_uncertain": false,
     "status": "flyable",
-    "role": "ground"
+    "role": "freight"
   },
   {
     "id": "mule",
@@ -2883,7 +2883,7 @@
     "flyable_date": "2025-10-16",
     "flyable_uncertain": false,
     "status": "flyable",
-    "role": "ground"
+    "role": "fighter"
   },
   {
     "id": "mdc",
