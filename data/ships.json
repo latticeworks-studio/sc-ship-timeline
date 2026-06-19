@@ -543,7 +543,7 @@
     "flyable_date": "2017-12-23",
     "flyable_uncertain": false,
     "status": "flyable",
-    "role": "salvage"
+    "role": "capital"
   },
   {
     "id": "eclipse",
@@ -1102,7 +1102,7 @@
     "flyable_date": "2019-12-20",
     "flyable_uncertain": false,
     "status": "flyable",
-    "role": "exploration"
+    "role": "capital"
   },
   {
     "id": "x1-force",
@@ -1310,7 +1310,7 @@
     "flyable_date": null,
     "flyable_uncertain": false,
     "status": "unreleased",
-    "role": "freight"
+    "role": "capital"
   },
   {
     "id": "railen",
@@ -2246,7 +2246,7 @@
     "flyable_date": null,
     "flyable_uncertain": false,
     "status": "unreleased",
-    "role": "mining"
+    "role": "capital"
   },
   {
     "id": "bengal",
@@ -2545,7 +2545,7 @@
     "flyable_date": null,
     "flyable_uncertain": false,
     "status": "unreleased",
-    "role": "support"
+    "role": "capital"
   },
   {
     "id": "hoverquad",
