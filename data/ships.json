@@ -3022,10 +3022,10 @@
     "manufacturer_short": "Origin",
     "announced": "2019-01-01",
     "announced_uncertain": true,
-    "flyable_patch": "Alpha 3.10",
-    "flyable_date": "2020-07-01",
+    "flyable_patch": null,
+    "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "flyable",
+    "status": "unreleased",
     "role": "ground"
   },
   {
@@ -3035,10 +3035,10 @@
     "manufacturer_short": "Origin",
     "announced": "2019-01-01",
     "announced_uncertain": true,
-    "flyable_patch": "Alpha 3.10",
-    "flyable_date": "2020-07-01",
+    "flyable_patch": null,
+    "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "flyable",
+    "status": "unreleased",
     "role": "ground"
   },
   {
@@ -3048,10 +3048,10 @@
     "manufacturer_short": "Origin",
     "announced": "2019-01-01",
     "announced_uncertain": true,
-    "flyable_patch": "Alpha 3.10",
-    "flyable_date": "2020-07-01",
+    "flyable_patch": null,
+    "flyable_date": null,
     "flyable_uncertain": false,
-    "status": "flyable",
+    "status": "unreleased",
     "role": "ground"
   },
   {
