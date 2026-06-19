@@ -619,5 +619,59 @@ function initModal() {
   if (!localStorage.getItem('sc-welcomed')) modal.classList.add('open');
 }
 
+// ─── Changelog modal ───────────────────────────────────────────────────────
+const REPO = 'latticeworks-studio/sc-ship-timeline';
+const COMMITS_URL = `https://api.github.com/repos/${REPO}/commits?per_page=20`;
+
+function cleanMessage(msg) {
+  // Strip Co-Authored-By trailer and blank lines before it
+  return msg.replace(/\n+Co-Authored-By:.*/s, '').trim();
+}
+
+function formatDate(iso) {
+  return new Date(iso).toLocaleDateString('en-CA'); // YYYY-MM-DD
+}
+
+async function loadChangelog() {
+  const content = document.getElementById('changelog-content');
+  if (!content) return;
+  try {
+    const commits = await (await fetch(COMMITS_URL)).json();
+    if (!Array.isArray(commits)) throw new Error('unexpected response');
+    content.innerHTML = commits.map(c => {
+      const date = formatDate(c.commit.author.date);
+      const msg  = cleanMessage(c.commit.message);
+      // First line is the summary; rest is body
+      const [summary, ...rest] = msg.split('\n');
+      const body = rest.join('\n').trim();
+      return `<div class="changelog-entry">
+        <span class="changelog-date">${date}</span>
+        <span class="changelog-msg">${summary}${body ? `<br><span style="opacity:.6;font-size:12px">${body.replace(/\n/g,'<br>')}</span>` : ''}</span>
+      </div>`;
+    }).join('');
+  } catch {
+    content.innerHTML = '<p class="changelog-error">Could not load changelog.</p>';
+  }
+}
+
+function initChangelog() {
+  const modal    = document.getElementById('changelog-modal');
+  const closeBtn = document.getElementById('changelog-modal-close');
+  const openBtn  = document.getElementById('changelog-btn');
+  if (!modal) return;
+
+  let loaded = false;
+  const open = () => {
+    modal.classList.add('open');
+    if (!loaded) { loaded = true; loadChangelog(); }
+  };
+  const close = () => modal.classList.remove('open');
+
+  openBtn?.addEventListener('click', open);
+  closeBtn.addEventListener('click', close);
+  modal.addEventListener('click', e => { if (e.target === modal) close(); });
+}
+
+initChangelog();
 initModal();
 init();
