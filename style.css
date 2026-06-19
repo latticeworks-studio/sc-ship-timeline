@@ -227,11 +227,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .modal-close:hover { color: var(--text); }
 
 .modal-icon {
-  font-size: 32px;
-  color: var(--amber);
-  filter: drop-shadow(0 0 8px rgba(255,183,77,0.4));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  filter: drop-shadow(0 0 8px rgba(0,168,255,0.45));
   margin-bottom: 12px;
-  line-height: 1;
 }
 
 .modal-title {
