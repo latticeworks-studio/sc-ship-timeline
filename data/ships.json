@@ -8,7 +8,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -21,7 +21,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -34,7 +34,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -47,7 +47,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -60,7 +60,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -73,7 +73,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -86,7 +86,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -99,7 +99,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -112,7 +112,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.6",
     "flyable_date": "2019-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -125,7 +125,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "capital"
   },
@@ -138,7 +138,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -151,7 +151,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.20",
     "flyable_date": "2023-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -164,7 +164,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 4.0",
     "flyable_date": "2024-12-19",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "capital"
   },
@@ -190,7 +190,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -203,7 +203,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -216,7 +216,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.1",
     "flyable_date": "2015-07-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -229,7 +229,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.1",
     "flyable_date": "2015-07-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -242,7 +242,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -255,7 +255,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.3",
     "flyable_date": "2018-10-10",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -268,7 +268,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -281,7 +281,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -294,7 +294,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.4",
     "flyable_date": "2018-12-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -346,7 +346,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.7",
     "flyable_date": "2019-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -385,7 +385,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v0.9",
     "flyable_date": "2014-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -398,7 +398,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -411,7 +411,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -424,7 +424,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -437,7 +437,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -450,7 +450,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -463,7 +463,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.2",
     "flyable_date": "2016-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -476,7 +476,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.5",
     "flyable_date": "2016-11-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -489,7 +489,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -502,7 +502,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -515,7 +515,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -554,7 +554,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -567,7 +567,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.13",
     "flyable_date": "2021-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -619,7 +619,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -632,7 +632,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.4",
     "flyable_date": "2018-12-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -645,7 +645,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -658,7 +658,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "dropship"
   },
@@ -671,7 +671,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -684,7 +684,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -775,7 +775,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -788,7 +788,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -801,7 +801,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -814,7 +814,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -905,7 +905,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -918,7 +918,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -931,7 +931,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -957,7 +957,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -970,7 +970,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -983,7 +983,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -996,7 +996,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.1",
     "flyable_date": "2015-07-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -1009,7 +1009,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -1022,7 +1022,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -1100,7 +1100,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -1113,7 +1113,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1139,7 +1139,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.13",
     "flyable_date": "2021-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1152,7 +1152,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.13",
     "flyable_date": "2021-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1178,7 +1178,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 3.13",
     "flyable_date": "2021-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -1191,7 +1191,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "dropship"
   },
@@ -1269,7 +1269,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1282,7 +1282,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1295,7 +1295,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1321,7 +1321,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 4.8.2",
     "flyable_date": "2026-06-17",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -1334,7 +1334,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.21",
     "flyable_date": "2023-11-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1347,7 +1347,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.19",
     "flyable_date": "2023-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1360,7 +1360,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.19",
     "flyable_date": "2023-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -1373,7 +1373,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.19",
     "flyable_date": "2023-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1386,7 +1386,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.20",
     "flyable_date": "2023-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1412,7 +1412,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.1",
     "flyable_date": "2015-07-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -1425,7 +1425,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -1438,7 +1438,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1451,7 +1451,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -1464,7 +1464,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -1477,7 +1477,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -1503,7 +1503,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -1516,7 +1516,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -1529,7 +1529,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -1568,7 +1568,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -1594,7 +1594,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.14",
     "flyable_date": "2021-08-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -1620,7 +1620,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.1",
     "flyable_date": "2018-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "dropship"
   },
@@ -1633,7 +1633,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.4",
     "flyable_date": "2018-12-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1646,7 +1646,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.18",
     "flyable_date": "2023-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1659,7 +1659,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1672,7 +1672,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1724,7 +1724,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1737,7 +1737,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.23",
     "flyable_date": "2024-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1750,7 +1750,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.23",
     "flyable_date": "2024-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1763,7 +1763,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.23",
     "flyable_date": "2024-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1776,7 +1776,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 3.9",
     "flyable_date": "2020-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -1841,7 +1841,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.11",
     "flyable_date": "2020-11-19",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -1854,7 +1854,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.11",
     "flyable_date": "2020-11-19",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -1867,7 +1867,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -1893,7 +1893,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -1906,7 +1906,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -1971,7 +1971,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -1984,7 +1984,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.1",
     "flyable_date": "2018-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -1997,7 +1997,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.1",
     "flyable_date": "2018-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -2010,7 +2010,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.1",
     "flyable_date": "2018-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2023,7 +2023,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -2036,7 +2036,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -2101,7 +2101,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 4.1.1",
     "flyable_date": "2025-05-15",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2140,7 +2140,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -2166,7 +2166,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2179,7 +2179,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -2192,7 +2192,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -2205,7 +2205,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 4.0",
     "flyable_date": "2024-12-19",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -2218,7 +2218,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 4.0",
     "flyable_date": "2024-12-19",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -2231,7 +2231,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 4.0",
     "flyable_date": "2024-12-19",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2335,7 +2335,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
   },
@@ -2361,7 +2361,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.7",
     "flyable_date": "2019-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "dropship"
   },
@@ -2374,7 +2374,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.6",
     "flyable_date": "2017-01-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2387,7 +2387,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.1",
     "flyable_date": "2018-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2400,7 +2400,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -2413,7 +2413,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -2439,7 +2439,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -2452,7 +2452,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 4.6.0",
     "flyable_date": "2026-02-11",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -2465,7 +2465,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -2478,7 +2478,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -2491,7 +2491,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -2504,7 +2504,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -2517,7 +2517,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2530,7 +2530,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -2556,7 +2556,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.18",
     "flyable_date": "2023-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -2569,7 +2569,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.20",
     "flyable_date": "2023-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2582,7 +2582,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.20",
     "flyable_date": "2023-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2595,7 +2595,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v0.9",
     "flyable_date": "2014-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2608,7 +2608,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.9",
     "flyable_date": "2020-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "capital"
   },
@@ -2621,7 +2621,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -2634,7 +2634,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -2647,7 +2647,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -2686,7 +2686,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2699,7 +2699,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.0",
     "flyable_date": "2015-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2712,7 +2712,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.9",
     "flyable_date": "2020-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2725,7 +2725,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.3",
     "flyable_date": "2018-10-10",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "dropship"
   },
@@ -2738,7 +2738,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.12",
     "flyable_date": "2020-12-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "mining"
   },
@@ -2751,7 +2751,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.12",
     "flyable_date": "2020-12-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "mining"
   },
@@ -2803,7 +2803,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Arena Commander v1.1",
     "flyable_date": "2015-07-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
   },
@@ -2842,7 +2842,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -2855,7 +2855,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.7",
     "flyable_date": "2019-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -2920,7 +2920,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.0",
     "flyable_date": "2017-12-23",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -2933,7 +2933,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.12",
     "flyable_date": "2020-12-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "mining"
   },
@@ -2985,7 +2985,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -2998,7 +2998,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.24",
     "flyable_date": "2024-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -3011,7 +3011,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.24",
     "flyable_date": "2024-09-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -3024,7 +3024,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3037,7 +3037,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3050,7 +3050,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.10",
     "flyable_date": "2020-07-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3063,7 +3063,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -3076,7 +3076,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.22",
     "flyable_date": "2024-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "racing"
   },
@@ -3089,7 +3089,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Arena Commander v0.8",
     "flyable_date": "2014-06-04",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
   },
@@ -3115,7 +3115,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.6",
     "flyable_date": "2019-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "support"
   },
@@ -3128,7 +3128,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.2",
     "flyable_date": "2018-06-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3141,7 +3141,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3154,7 +3154,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 2.0",
     "flyable_date": "2015-12-11",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3167,7 +3167,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.15",
     "flyable_date": "2021-10-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3180,7 +3180,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3193,7 +3193,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.5",
     "flyable_date": "2019-03-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3206,7 +3206,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3219,7 +3219,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3232,7 +3232,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.8",
     "flyable_date": "2019-12-20",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3245,7 +3245,7 @@
     "announced_uncertain": true,
     "flyable_patch": "Alpha 3.17",
     "flyable_date": "2022-04-01",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "ground"
   },
@@ -3258,7 +3258,7 @@
     "announced_uncertain": false,
     "flyable_patch": "Alpha 4.1.1",
     "flyable_date": "2025-05-15",
-    "flyable_uncertain": true,
+    "flyable_uncertain": false,
     "status": "flyable",
     "role": "dropship"
   }
