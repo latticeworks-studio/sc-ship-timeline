@@ -2450,7 +2450,7 @@
     "manufacturer_short": "Argo",
     "announced": "2026-02-11",
     "announced_uncertain": true,
-    "flyable_patch": "Alpha 4.6.0",
+    "flyable_patch": "Alpha 4.6",
     "flyable_date": "2026-02-11",
     "flyable_uncertain": false,
     "status": "flyable",
