@@ -555,7 +555,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .stats-open-btn:hover { border-color: var(--border-h); color: var(--text); }
 
 /* ─── Stats modal ────────────────────────────────────────────────────────── */
-.stats-overlay .modal-card { max-width: 680px; padding-bottom: 20px; }
+.stats-overlay .modal-card { max-width: 780px; padding-bottom: 20px; }
 .stats-modal-card { max-height: 85vh; display: flex; flex-direction: column; }
 .stats-modal-card .modal-title { flex-shrink: 0; margin-bottom: 20px; }
 #stats-modal-content { overflow-y: auto; flex: 1; padding-right: 4px; scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
