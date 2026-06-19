@@ -98,12 +98,16 @@
         <button class="status-btn" data-status="flyable">Flyable</button>
         <button class="status-btn" data-status="unreleased">Unreleased</button>
       </div>
-      <div class="sort-wrap">
-        <span class="sort-label">Sort</span>
-        <button class="sort-btn active" data-sort="name">Name</button>
-        <button class="sort-btn" data-sort="manufacturer">Mfr</button>
-        <button class="sort-btn" data-sort="announced">Announced</button>
-        <button class="sort-btn" data-sort="flyable">Flyable</button>
+      <div class="col-picker-wrap" id="col-picker-wrap">
+        <button class="col-picker-btn" id="col-picker-btn" aria-label="Toggle columns">
+          <svg viewBox="0 0 16 16" fill="none" width="13" height="13">
+            <rect x="1" y="3" width="4" height="10" rx="1" stroke="currentColor" stroke-width="1.4"/>
+            <rect x="6" y="3" width="4" height="10" rx="1" stroke="currentColor" stroke-width="1.4"/>
+            <rect x="11" y="3" width="4" height="10" rx="1" stroke="currentColor" stroke-width="1.4"/>
+          </svg>
+          Columns
+        </button>
+        <div class="col-picker-menu" id="col-picker-menu"></div>
       </div>
     </div>
   </header>
@@ -114,14 +118,7 @@
   </div>
 
   <div class="layout">
-    <div class="list-col-header">
-      <span></span>
-      <span>Ship</span>
-      <span class="col-mfr">Manufacturer</span>
-      <span class="col-patch">Flyable Patch</span>
-      <span class="col-status">Status</span>
-      <span></span>
-    </div>
+    <div class="list-col-header" id="list-col-header"></div>
     <div class="ship-list" id="ship-list">
       <div class="loading-state">
         <div class="loading-spinner"></div>

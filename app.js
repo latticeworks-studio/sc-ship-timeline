@@ -21,13 +21,45 @@ const MFR_CLASS = {
   "Grey's Market":            'Greys',
 };
 
+// ─── Column definitions ────────────────────────────────────────────────────
+const COLUMNS = [
+  { key: 'announced', label: 'Announced',    width: '110px', sortKey: 'announced',    defaultOn: false },
+  { key: 'mfr',       label: 'Manufacturer', width: '160px', sortKey: 'manufacturer', defaultOn: true  },
+  { key: 'patch',     label: 'Flyable Patch',width: '140px', sortKey: 'flyable',      defaultOn: true  },
+  { key: 'role',      label: 'Role',         width: '100px', sortKey: 'role',         defaultOn: false },
+  { key: 'status',    label: 'Status',       width: '84px',  sortKey: null,           defaultOn: true  },
+];
+
+const COL_STORAGE = 'sc-cols-v1';
+
+function loadColPrefs() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(COL_STORAGE));
+    if (Array.isArray(saved)) return new Set(saved);
+  } catch {}
+  return new Set(COLUMNS.filter(c => c.defaultOn).map(c => c.key));
+}
+function saveColPrefs() {
+  localStorage.setItem(COL_STORAGE, JSON.stringify([...visibleCols]));
+}
+
+function buildGrid() {
+  const widths = COLUMNS.filter(c => visibleCols.has(c.key)).map(c => c.width).join(' ');
+  return `36px 1fr ${widths} 36px`;
+}
+function applyGrid() {
+  document.documentElement.style.setProperty('--ship-grid', buildGrid());
+}
+
 let allShips = [];
 let filteredShips = [];
-let currentSort = 'name';
-let currentSearch = '';
-let currentPatch = '';
-let currentStatus = '';
-let currentRole   = '';
+let visibleCols    = loadColPrefs();
+let currentSort    = 'name';
+let sortDir        = 1;   // 1 = asc, -1 = desc
+let currentSearch  = '';
+let currentPatch   = '';
+let currentStatus  = '';
+let currentRole    = '';
 let selectedId = null;
 
 // ─── Init ──────────────────────────────────────────────────────────────────
@@ -47,10 +79,11 @@ async function init() {
   try {
     const res = await fetch('data/ships.json');
     allShips = await res.json();
+    applyGrid();
     populatePatchDropdown();
     applyFilters();
     setupSearch();
-    setupSort();
+    setupColumnPicker();
     setupPatchFilter();
     setupStatusFilter();
     setupRoleFilter();
@@ -84,18 +117,15 @@ function applyFilters() {
 
 function sortShips(ships, by) {
   return [...ships].sort((a, b) => {
+    let primary = 0;
     switch (by) {
-      case 'name':
-        return a.name.localeCompare(b.name);
-      case 'manufacturer':
-        return a.manufacturer.localeCompare(b.manufacturer) || a.name.localeCompare(b.name);
-      case 'announced':
-        return dateVal(a.announced) - dateVal(b.announced) || a.name.localeCompare(b.name);
-      case 'flyable':
-        return dateVal(a.flyable_date) - dateVal(b.flyable_date) || a.name.localeCompare(b.name);
-      default:
-        return 0;
+      case 'name':         primary = a.name.localeCompare(b.name); break;
+      case 'manufacturer': primary = a.manufacturer.localeCompare(b.manufacturer); break;
+      case 'announced':    primary = dateVal(a.announced) - dateVal(b.announced); break;
+      case 'flyable':      primary = dateVal(a.flyable_date) - dateVal(b.flyable_date); break;
+      case 'role':         primary = (a.role || 'zzz').localeCompare(b.role || 'zzz'); break;
     }
+    return (primary * sortDir) || a.name.localeCompare(b.name);
   });
 }
 
@@ -137,6 +167,37 @@ function renderList() {
   });
 
   if (selectedId) reopenSelected();
+  renderColHeader();
+}
+
+function renderColHeader() {
+  const header = document.getElementById('list-col-header');
+  if (!header) return;
+  const arrow = (key) => {
+    if (key !== currentSort) return '';
+    return `<span class="col-hdr-arrow">${sortDir === 1 ? '▲' : '▼'}</span>`;
+  };
+  const visibleDefs = COLUMNS.filter(c => visibleCols.has(c.key));
+  header.innerHTML = `
+    <span></span>
+    <button class="col-hdr${currentSort === 'name' ? ' active' : ''}" data-sort="name">Ship ${arrow('name')}</button>
+    ${visibleDefs.map(c => c.sortKey
+      ? `<button class="col-hdr${currentSort === c.sortKey ? ' active' : ''}" data-sort="${c.sortKey}">${c.label} ${arrow(c.sortKey)}</button>`
+      : `<span>${c.label}</span>`
+    ).join('')}
+    <span></span>
+  `;
+  header.querySelectorAll('[data-sort]').forEach(el => {
+    el.addEventListener('click', () => {
+      if (currentSort === el.dataset.sort) {
+        sortDir = -sortDir;
+      } else {
+        currentSort = el.dataset.sort;
+        sortDir = 1;
+      }
+      applyFilters();
+    });
+  });
 }
 
 function groupByManufacturer(ships) {
@@ -159,14 +220,22 @@ function renderListItem(ship) {
     : `<span class="status-badge badge-unreleased">Unreleased</span>`;
   const chevron = `<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 
+  const colCells = COLUMNS.filter(c => visibleCols.has(c.key)).map(c => {
+    switch (c.key) {
+      case 'announced': return `<span class="ship-item-announced">${ship.announced ? escHtml(ship.announced) : '—'}</span>`;
+      case 'mfr':       return `<span class="ship-item-mfr">${escHtml(ship.manufacturer)}</span>`;
+      case 'patch':     return `<span class="ship-item-patch">${patch}</span>`;
+      case 'role':      return `<span class="ship-item-role">${ship.role ? escHtml(ship.role) : '—'}</span>`;
+      case 'status':    return `<span class="ship-item-status">${statusBadgeSmall}</span>`;
+    }
+  }).join('');
+
   return `
     <div class="ship-row-wrap">
       <div class="ship-item" data-id="${ship.id}" role="button" tabindex="0">
         <span class="ship-status-dot ${dotClass}"></span>
         <span class="ship-item-name">${escHtml(ship.name)}</span>
-        <span class="ship-item-mfr">${escHtml(ship.manufacturer)}</span>
-        <span class="ship-item-patch">${patch}</span>
-        <span class="ship-item-status">${statusBadgeSmall}</span>
+        ${colCells}
         <span class="ship-item-chevron">${chevron}</span>
       </div>
       <div class="ship-expand" id="expand-${ship.id}">
@@ -441,15 +510,41 @@ function setupSearch() {
   });
 }
 
-// ─── Sort ──────────────────────────────────────────────────────────────────
-function setupSort() {
-  document.querySelectorAll('.sort-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentSort = btn.dataset.sort;
-      applyFilters();
+// ─── Column picker ─────────────────────────────────────────────────────────
+function setupColumnPicker() {
+  const btn  = document.getElementById('col-picker-btn');
+  const menu = document.getElementById('col-picker-menu');
+  if (!btn || !menu) return;
+
+  // Build checkboxes
+  menu.innerHTML = COLUMNS.map(c => `
+    <label class="col-picker-item">
+      <input type="checkbox" value="${c.key}"${visibleCols.has(c.key) ? ' checked' : ''}>
+      ${c.label}
+    </label>
+  `).join('');
+
+  menu.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+    cb.addEventListener('change', () => {
+      if (cb.checked) visibleCols.add(cb.value);
+      else            visibleCols.delete(cb.value);
+      saveColPrefs();
+      applyGrid();
+      renderList();
     });
+  });
+
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    menu.classList.toggle('open');
+    btn.classList.toggle('active');
+  });
+
+  document.addEventListener('click', e => {
+    if (!menu.contains(e.target) && e.target !== btn) {
+      menu.classList.remove('open');
+      btn.classList.remove('active');
+    }
   });
 }
 
