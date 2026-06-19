@@ -89,11 +89,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   flex-shrink: 0;
 }
 
-.brand-hex {
-  font-size: 28px;
+.brand-icon {
   color: var(--accent);
-  line-height: 1;
-  filter: drop-shadow(0 0 8px var(--accent));
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 6px var(--accent));
 }
 
 .brand-title {
@@ -131,6 +130,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   color: var(--text-dimmer);
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  margin-top: 5px;
 }
 
 .header-controls {
@@ -143,6 +143,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* ─── Early access pill ──────────────────────────────────────────────────── */
 .early-access-pill {
+  margin-left: 8px;
   font-size: 9px;
   font-weight: 700;
   text-transform: uppercase;
