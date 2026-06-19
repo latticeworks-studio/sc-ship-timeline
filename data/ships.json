@@ -2305,10 +2305,10 @@
     "name": "Hermes",
     "manufacturer": "Roberts Space Industries",
     "manufacturer_short": "RSI",
-    "announced": "2065-01-22",
+    "announced": "2025-01-22",
     "announced_uncertain": false,
     "flyable_patch": "Alpha 4.6",
-    "flyable_date": "2065-01-22",
+    "flyable_date": "2025-01-22",
     "flyable_uncertain": false,
     "status": "flyable",
     "role": "freight"
