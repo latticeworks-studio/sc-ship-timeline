@@ -2671,10 +2671,10 @@
     "manufacturer_short": "Anvil",
     "announced": "2019-10-10",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 3.15.1",
+    "flyable_date": "2021-11-19",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
@@ -2762,10 +2762,10 @@
     "manufacturer_short": "Argo",
     "announced": "2024-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 3.24.1",
+    "flyable_date": "2024-09-13",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
@@ -2775,10 +2775,10 @@
     "manufacturer_short": "Argo",
     "announced": "2024-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.1",
+    "flyable_date": "2025-03-27",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
@@ -2788,10 +2788,10 @@
     "manufacturer_short": "Argo",
     "announced": "2024-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.6",
+    "flyable_date": "2026-01-28",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
@@ -2814,10 +2814,10 @@
     "manufacturer_short": "Drake",
     "announced": "2024-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.1.1",
+    "flyable_date": "2025-05-15",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
@@ -2827,10 +2827,10 @@
     "manufacturer_short": "Drake",
     "announced": "2024-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.4",
+    "flyable_date": "2025-11-19",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
@@ -2866,10 +2866,10 @@
     "manufacturer_short": "Esperia",
     "announced": "2022-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.3.2",
+    "flyable_date": "2025-10-16",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "fighter"
   },
   {
@@ -2879,10 +2879,10 @@
     "manufacturer_short": "Grey's",
     "announced": "2023-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.3.2",
+    "flyable_date": "2025-10-16",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
@@ -2892,10 +2892,10 @@
     "manufacturer_short": "Greycat",
     "announced": "2024-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.4",
+    "flyable_date": "2025-11-19",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
@@ -2905,10 +2905,10 @@
     "manufacturer_short": "Greycat",
     "announced": "2024-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.1.1",
+    "flyable_date": "2025-05-15",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
@@ -2944,10 +2944,10 @@
     "manufacturer_short": "Greycat",
     "announced": "2024-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.7.1",
+    "flyable_date": "2026-04-08",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
@@ -2957,10 +2957,10 @@
     "manufacturer_short": "Kruger",
     "announced": "2023-06-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.3",
+    "flyable_date": "2025-08-16",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "fighter"
   },
   {
@@ -2970,10 +2970,10 @@
     "manufacturer_short": "Kruger",
     "announced": "2023-06-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.4",
+    "flyable_date": "2025-11-19",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "fighter"
   },
   {
@@ -3100,10 +3100,10 @@
     "manufacturer_short": "RSI",
     "announced": "2024-01-01",
     "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "flyable_patch": "Alpha 4.7",
+    "flyable_date": "2026-03-26",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "fighter"
   },
   {
