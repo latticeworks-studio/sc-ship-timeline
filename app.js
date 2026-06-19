@@ -206,7 +206,7 @@ function groupByManufacturer(ships) {
     if (!map.has(ship.manufacturer)) map.set(ship.manufacturer, []);
     map.get(ship.manufacturer).push(ship);
   }
-  return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0]))
+  return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0]) * sortDir)
     .map(([label, ships]) => ({ label, ships }));
 }
 
