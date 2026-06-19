@@ -2998,5 +2998,17 @@
     "flyable_date": "2022-04-01",
     "flyable_uncertain": true,
     "status": "flyable"
+  },
+  {
+    "id": "asgard",
+    "name": "Asgard",
+    "manufacturer": "Anvil Aerospace",
+    "manufacturer_short": "Anvil",
+    "announced": "2025-05-15",
+    "announced_uncertain": false,
+    "flyable_patch": "Alpha 4.1.1",
+    "flyable_date": "2025-05-15",
+    "flyable_uncertain": true,
+    "status": "flyable"
   }
 ]
