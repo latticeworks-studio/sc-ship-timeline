@@ -353,7 +353,7 @@ function buildDetailHTML(ship) {
   const uncertainNote = (ship.announced_uncertain || ship.flyable_uncertain)
     ? `<div class="detail-note">
         <span class="detail-note-icon">⚠</span>
-        <span>Dates marked <strong style="color:var(--amber)">~</strong> are approximate and sourced from community records. Verify against the <a href="https://starcitizen.tools/Patch_notes" target="_blank" rel="noopener">SC Wiki patch notes</a>.</span>
+        <span>Dates marked <strong style="color:var(--amber)">~</strong> are approximate and sourced from community records.</span>
       </div>`
     : '';
 
