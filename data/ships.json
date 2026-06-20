@@ -745,10 +745,10 @@
     "name": "Corsair",
     "manufacturer": "Drake Interplanetary",
     "manufacturer_short": "Drake",
-    "announced": "2020-10-10",
+    "announced": "2019-03-22",
     "announced_uncertain": false,
-    "flyable_patch": "Alpha 3.16",
-    "flyable_date": "2021-12-01",
+    "flyable_patch": "Alpha 3.17.4",
+    "flyable_date": "2022-11-17",
     "flyable_uncertain": false,
     "status": "flyable",
     "role": "exploration"
