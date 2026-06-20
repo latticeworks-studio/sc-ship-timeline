@@ -563,10 +563,10 @@
     "name": "Redeemer",
     "manufacturer": "Aegis Dynamics",
     "manufacturer_short": "Aegis",
-    "announced": "2014-01-01",
+    "announced": "2014-06-08",
     "announced_uncertain": true,
-    "flyable_patch": "Alpha 3.13",
-    "flyable_date": "2021-04-01",
+    "flyable_patch": "Alpha 3.15.1",
+    "flyable_date": "2021-11-18",
     "flyable_uncertain": false,
     "status": "flyable",
     "role": "fighter"
