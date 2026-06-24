@@ -2656,12 +2656,12 @@
     "name": "Centurion",
     "manufacturer": "Anvil Aerospace",
     "manufacturer_short": "Anvil",
-    "announced": "2019-10-10",
-    "announced_uncertain": true,
-    "flyable_patch": null,
-    "flyable_date": null,
+    "announced": "2022-07-28",
+    "announced_uncertain": false,
+    "flyable_patch": "Alpha 3.17.2",
+    "flyable_date": "2022-07-28",
     "flyable_uncertain": false,
-    "status": "unreleased",
+    "status": "flyable",
     "role": "ground"
   },
   {
