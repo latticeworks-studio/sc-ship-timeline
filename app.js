@@ -27,6 +27,7 @@ const COLUMNS = [
   { key: 'mfr',       label: 'Manufacturer', width: '160px', sortKey: 'manufacturer', defaultOn: true  },
   { key: 'patch',     label: 'Flyable Patch',width: '140px', sortKey: 'flyable',      defaultOn: true  },
   { key: 'role',      label: 'Role',         width: '100px', sortKey: 'role',         defaultOn: false },
+  { key: 'wait',      label: 'Dev Time',     width: '120px', sortKey: 'wait',         defaultOn: false },
   { key: 'status',    label: 'Status',       width: '84px',  sortKey: null,           defaultOn: true  },
 ];
 
@@ -115,7 +116,25 @@ function applyFilters() {
   updateStats();
 }
 
+function waitDays(ship, today) {
+  if (!ship.announced) return null;
+  const end = ship.status === 'flyable' ? ship.flyable_date : today;
+  if (!end) return null;
+  const ms = new Date(end + 'T00:00:00') - new Date(ship.announced + 'T00:00:00');
+  return ms > 0 ? Math.floor(ms / 86400000) : 0;
+}
+
 function sortShips(ships, by) {
+  const today = new Date().toISOString().slice(0, 10);
+  if (by === 'wait') {
+    return [...ships].sort((a, b) => {
+      const wa = waitDays(a, today), wb = waitDays(b, today);
+      if (wa === null && wb === null) return a.name.localeCompare(b.name);
+      if (wa === null) return 1;
+      if (wb === null) return -1;
+      return ((wa - wb) * sortDir) || a.name.localeCompare(b.name);
+    });
+  }
   return [...ships].sort((a, b) => {
     let primary = 0;
     switch (by) {
@@ -226,6 +245,13 @@ function renderListItem(ship) {
       case 'mfr':       return `<span class="ship-item-mfr">${escHtml(ship.manufacturer)}</span>`;
       case 'patch':     return `<span class="ship-item-patch">${patch}</span>`;
       case 'role':      return `<span class="ship-item-role">${ship.role ? escHtml(ship.role) : '—'}</span>`;
+      case 'wait': {
+        const tod = new Date().toISOString().slice(0, 10);
+        const end = ship.status === 'flyable' ? ship.flyable_date : tod;
+        const dur = ship.announced && end ? calcDelta(ship.announced, end) : null;
+        const cls = ship.status !== 'flyable' ? ' ship-item-wait-pending' : '';
+        return `<span class="ship-item-wait${cls}">${dur || '—'}</span>`;
+      }
       case 'status':    return `<span class="ship-item-status">${statusBadgeSmall}</span>`;
     }
   }).join('');

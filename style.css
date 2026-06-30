@@ -816,6 +816,15 @@ button.col-hdr.active { color: var(--accent); }
   text-transform: capitalize;
 }
 
+.ship-item-wait {
+  font-size: 11px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.ship-item-wait-pending {
+  color: var(--amber);
+}
+
 /* ─── Column picker ──────────────────────────────────────────────────────── */
 .col-picker-wrap { position: relative; }
 .col-picker-btn {
@@ -1184,7 +1193,8 @@ button.col-hdr.active { color: var(--accent); }
   .ship-item-mfr,
   .ship-item-announced,
   .ship-item-patch,
-  .ship-item-role { display: none; }
+  .ship-item-role,
+  .ship-item-wait { display: none; }
 
   .ship-expand-content { padding: 20px 16px 24px; }
   .detail-name { font-size: 22px; }
