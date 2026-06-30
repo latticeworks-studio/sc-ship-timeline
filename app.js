@@ -313,14 +313,14 @@ function buildDetailHTML(ship) {
 
   const announcedRow = buildDateRow('Announced', ship.announced, ship.announced_uncertain, null);
   const flyableRow   = ship.status === 'flyable'
-    ? buildDateRow('Flyable', ship.flyable_date, ship.flyable_uncertain, ship.flyable_patch)
+    ? buildDateRow('Flyable', ship.flyable_date, false, ship.flyable_patch)
     : buildUnreleasedRow('Flyable');
 
   let deltaRow = '';
   if (ship.status === 'flyable' && ship.announced && ship.flyable_date) {
     const delta = calcDelta(ship.announced, ship.flyable_date);
     if (delta) {
-      const approx = ship.announced_uncertain || ship.flyable_uncertain;
+      const approx = ship.announced_uncertain;
       deltaRow = `<div class="timeline-row timeline-row-delta">
         <div class="timeline-row-label">Duration</div>
         <div class="timeline-row-value">
@@ -350,7 +350,7 @@ function buildDetailHTML(ship) {
     }
   }
 
-  const uncertainNote = (ship.announced_uncertain || ship.flyable_uncertain)
+  const uncertainNote = ship.announced_uncertain
     ? `<div class="detail-note">
         <span class="detail-note-icon">⚠</span>
         <span>Dates marked <strong style="color:var(--amber)">~</strong> are approximate and sourced from community records.</span>

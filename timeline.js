@@ -199,11 +199,10 @@ function buildInfoHTML(ship) {
 
   let flyableHTML = '';
   if (ship.status === 'flyable' && ship.flyable_date) {
-    const u = ship.flyable_uncertain ? '<span style="color:var(--amber)" title="Approximate">~</span> ' : '';
     flyableHTML = `
       <div class="tl-info-field">
         <span class="tl-info-label">Flyable</span>
-        <span class="tl-info-value">${u}${fmtFull(ship.flyable_date)} <span class="tl-info-patch">${escHtml(ship.flyable_patch)}</span></span>
+        <span class="tl-info-value">${fmtFull(ship.flyable_date)} <span class="tl-info-patch">${escHtml(ship.flyable_patch)}</span></span>
       </div>`;
   } else {
     flyableHTML = `
