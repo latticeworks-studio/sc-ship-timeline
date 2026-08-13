@@ -3034,5 +3034,17 @@
     "flyable_date": "2024-11-30",
     "status": "flyable",
     "role": "fighter"
+  },
+  {
+    "id": "basher",
+    "name": "Basher",
+    "manufacturer": "Grey's Market",
+    "manufacturer_short": "Grey's",
+    "announced": "2026-07-15",
+    "announced_uncertain": true,
+    "flyable_patch": "Alpha 4.9.0",
+    "flyable_date": "2026-07-15",
+    "status": "flyable",
+    "role": "fighter"
   }
 ]
