@@ -3046,5 +3046,17 @@
     "flyable_date": "2026-07-15",
     "status": "flyable",
     "role": "fighter"
+  },
+  {
+    "id": "s-65-stingray",
+    "name": "S-65 Stingray",
+    "manufacturer": "Kruger Intergalactic",
+    "manufacturer_short": "Kruger",
+    "announced": "2026-08-26",
+    "announced_uncertain": true,
+    "flyable_patch": "Alpha 4.10",
+    "flyable_date": "2026-08-26",
+    "status": "flyable",
+    "role": "fighter"
   }
 ]
