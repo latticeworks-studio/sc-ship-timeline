@@ -3058,5 +3058,17 @@
     "flyable_date": "2026-08-26",
     "status": "flyable",
     "role": "fighter"
+  },
+  {
+    "id": "sabre-raven-ex",
+    "name": "Sabre Raven EX",
+    "manufacturer": "Aegis Dynamics",
+    "manufacturer_short": "Aegis",
+    "announced": "2026-09-16",
+    "announced_uncertain": true,
+    "flyable_patch": "Alpha 4.10.1",
+    "flyable_date": "2026-09-16",
+    "status": "flyable",
+    "role": "fighter"
   }
 ]
